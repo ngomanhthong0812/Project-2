@@ -1,0 +1,54 @@
+.menu{
+    background-color: #1E293B;
+    height: 100vh;
+    
+}
+.menu .row div{
+    font-size: 11px;
+    cursor: pointer;
+}
+.my-body{
+    width: 95%;
+}
+.my-body .search i{
+    left: 10px;
+}
+.my-body .search input{
+    width: 90%;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+}
+.my-body .search img{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+.menu-shop{
+    font-size: 14px;
+}
+.menu-shop div{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    padding: 0.3rem;
+}
+.menu-shop span{
+    height: 23px;
+}
+.menu-shop div img{
+    width: 25px;
+    height: 100%;
+}
+.menu-toggle .menu-toggle-1 div{
+    cursor: pointer;
+}
+.menu-toggle .menu-toggle-1 div:hover{
+    background-color: aquamarine !important;
+}
+.menu-shop div:not(.title){
+    cursor: pointer;
+}
